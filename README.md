@@ -20,4 +20,4 @@ AWS Cybersecurity Progress
 - [AWS Global Infrastructure](01-Cloud-Foundations/AWS-Global-Infrastructure.md)
 
 ### 02 - Networking
-- Coming soon
+[Networking Fundamentals](02-Networking/Networking-Fundamentals.md)
