@@ -1,9 +1,29 @@
 # Networking Fundamentals
 
 ## 1. Ports and Protocols
+
+A port is a numbered doorway on a computer where a service listens for
+connections. A protocol is the set of rules two devices follow to talk.
+Common ports: 22 SSH (remote login), 53 DNS, 80 HTTP, 443 HTTPS (encrypted web),
+3389 RDP (Windows remote desktop). Each open port is a possible entry point,
+so only needed ports should be open.
 ## 2. TCP vs UDP
+
+TCP is reliable: it sets up a connection with a three-way handshake
+(SYN, SYN-ACK, ACK) and checks that data arrives. It is used for web pages and SSH.
+UDP is faster but does not guarantee delivery. It is used for DNS lookups,
+video calls and streaming.
 ## 3. DNS
+
+DNS translates names like google.com into IP addresses, like a phone book
+for the internet. It normally uses port 53. Attackers can abuse it with
+DNS spoofing, which sends users to a fake site, so trusted resolvers matter.
 ## 4. Firewalls and NAT
+
+A firewall allows or blocks traffic based on rules (source, destination, port).
+In AWS, security groups and network ACLs do this job.
+NAT lets many private devices share one public IP address and hides internal
+addresses from the internet.
 ## 5. Network Security Risks
 ### Risk 1: Open Ports and Misconfigured Services
 - Threat:
@@ -12,6 +32,12 @@
 - Recommended control:
 ## 6. Practical Lab: Nmap Scan
 ## 7. Day 3 Reflection
+
+Today I learned that Nmap's default scan only checks the top 1,000 ports, so a
+full scan with -p- found 12 open ports instead of 2. I also learned that
+"unknown" in Nmap means no known name, not danger, and that ss -tlnp shows
+which process owns each port. Next I want to understand how these ideas apply
+to AWS security groups.
 ## 6. Practical Lab: Nmap Scan
 
 *Commands:* nmap localhost then nmap -sV localhost (own Codespace only)
