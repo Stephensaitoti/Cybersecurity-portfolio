@@ -12,3 +12,12 @@ AWS Cybersecurity Progress
 [ ] Day 27 - Build Python log analyser
 [ ] Day 28 - Complete integrated assessment
 [ ] Day 30 - Publish complete portfolio
+
+## Table of Contents
+
+### 01 - Cloud Foundations
+- [AWS Cloud Security Foundations](01-Cloud-Foundations/AWS-Cloud-Security-Foundations.md)
+- [AWS Global Infrastructure](01-Cloud-Foundations/AWS-Global-Infrastructure.md)
+
+### 02 - Networking
+- Coming soon
