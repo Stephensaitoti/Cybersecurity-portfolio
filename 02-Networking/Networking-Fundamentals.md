@@ -26,18 +26,12 @@ NAT lets many private devices share one public IP address and hides internal
 addresses from the internet.
 ## 5. Network Security Risks
 ### Risk 1: Open Ports and Misconfigured Services
-- Threat:
-- Vulnerability:
-- Impact:
-- Recommended control:
-## 6. Practical Lab: Nmap Scan
-## 7. Day 3 Reflection
 
-Today I learned that Nmap's default scan only checks the top 1,000 ports, so a
-full scan with -p- found 12 open ports instead of 2. I also learned that
-"unknown" in Nmap means no known name, not danger, and that ss -tlnp shows
-which process owns each port. Next I want to understand how these ideas apply
-to AWS security groups.
+
+- Threat: An attacker scans a host and finds exposed services.
+- Vulnerability: Unneeded or outdated services listening on open ports.
+- Impact: Brute-force attacks or exploitation of known flaws, leading to unauthorized access.
+- Recommended control: Close unused ports, patch regularly, use key-based SSH, and limit access with firewalls or security groups.
 ## 6. Practical Lab: Nmap Scan
 
 *Commands:* nmap localhost then nmap -sV localhost (own Codespace only)
@@ -56,6 +50,7 @@ Banner and version information also shows an attacker which software to target.
 *Security takeaway:* Verify services instead of trusting port numbers. Keep
 software patched, disable password logins for SSH, restrict who can reach SSH,
 and close any service that isn't needed.
+
 ### Cross-check with ss -tlnp
 
 sudo ss -tlnp lists every listening port and the process behind it.
@@ -84,3 +79,11 @@ the service must be identified another way (-sV, or ss -tlnp to find the process
 *Security takeaway:* An accurate asset and port inventory is the first step in
 reducing attack surface. Check each listener: is it needed, what is it bound to,
 and who can reach it?
+
+## 7. Day 3 Reflection
+
+Today I learned that Nmap's default scan only checks the top 1,000 ports, so a
+full scan with -p- found 12 open ports instead of 2. I also learned that
+"unknown" in Nmap means no known name, not danger, and that ss -tlnp shows
+which process owns each port. Next I want to understand how these ideas apply
+to AWS security groups.
