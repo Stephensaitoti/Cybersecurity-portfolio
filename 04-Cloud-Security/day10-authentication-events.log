@@ -1,0 +1,9 @@
+
+2026-11-27 09:00:12 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:00:45 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:01:18 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:01:52 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:02:20 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:03:05 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:03:48 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
+2026-11-27 09:04:30 FAILED_LOGIN user=finance.admin src=192.0.2.88 system=FINANCE-SERVER-01
