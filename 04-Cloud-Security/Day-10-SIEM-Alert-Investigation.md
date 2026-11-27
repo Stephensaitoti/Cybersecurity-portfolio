@@ -9,6 +9,18 @@ Junior SOC Analyst
 
 ## 1. Learning Objectives
 
+## 1. Learning Objectives
+
+By completing this SIEM alert investigation, I aimed to:
+
+1. Understand how SIEM systems generate security alerts from predefined detection rules.
+2. Investigate repeated failed authentication attempts using Linux command-line tools.
+3. Identify affected user accounts, source IP addresses and suspicious login patterns.
+4. Analyse authentication timestamps and determine whether detection thresholds have been exceeded.
+5. Distinguish suspicious activity from confirmed security incidents.
+6. Understand how to assess alert severity and determine appropriate escalation procedures.
+7. Document investigation evidence, findings and recommendations in a structured SOC investigation report.
+
 ## 2. SIEM Alert Investigation Fundamentals
 
 ## 2. SIEM Alert Investigation Fundamentals
