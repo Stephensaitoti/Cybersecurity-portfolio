@@ -1,0 +1,6 @@
+2026-11-27 08:10:12 FAILED_LOGIN user=john.doe src_ip=192.0.2.44
+2026-11-27 08:10:35 FAILED_LOGIN user=john.doe src_ip=192.0.2.44
+2026-11-27 08:11:02 FAILED_LOGIN user=john.doe src_ip=192.0.2.44
+2026-11-27 08:11:29 FAILED_LOGIN user=john.doe src_ip=192.0.2.44
+2026-11-27 08:12:01 FAILED_LOGIN user=john.doe src_ip=192.0.2.44
+2026-11-27 08:13:15 SUCCESSFUL_LOGIN user=john.doe src_ip=192.0.2.44
